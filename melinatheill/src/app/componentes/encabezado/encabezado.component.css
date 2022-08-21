@@ -1,0 +1,24 @@
+
+   
+   i {
+       color:#076879;
+       margin-top: 8%;
+       font-size: medium;
+       }
+   button {
+       display: flex;
+       align-items: right;
+       justify-content: right; 
+       float: right;
+     font-size: smaller;
+     
+     color:#0c5b75;
+     }
+
+img {
+width: 20px;;
+height: 20px;
+float: right;
+ top: 50 px;;
+}
+     

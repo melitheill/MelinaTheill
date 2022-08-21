@@ -1,0 +1,11 @@
+.row {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    box-sizing:border-box
+
+}
+h3{
+ text-align: center;
+ padding-bottom: 5%;
+}
