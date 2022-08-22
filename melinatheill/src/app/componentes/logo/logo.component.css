@@ -1,20 +1,18 @@
 
-
 #logo{
     width: 150px;
     background-color: #3576E1;
     border-radius: 10px;
-   margin-left: 20px;
-
+    display: flex;
+   
 }
 
 
-
-.linkedin{
+#linkedin{
     font-size: 150%;
-    margin:1px;
+margin-left: 80%;
+display: flex;
 }
-
-#botones{
-    float: right;
+row{
+    display: flex;
 }
