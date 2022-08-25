@@ -1,10 +1,10 @@
-package com.melinatheill.demo;
+package com.melinatheill.mgb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class MgbApplicationTests {
 
 	@Test
 	void contextLoads() {
