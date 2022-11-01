@@ -32,7 +32,7 @@ public class Usuario {
     @NotNull
    private String password;
     @ManyToMany (fetch = FetchType.EAGER)  
-    @JoinTable(name = "usuario_rol"), joinColumns = @JoinColumn = (name = "usario_id"),inverseJoinColumns = @JoinColumn (name = "rol_id"));
+    @JoinTable (name = "usuario_rol",joinColumns = @JoinColumn (name = "usario_id"),inverseJoinColumns = @JoinColumn (name="rol_id"))
     private Set<Rol> roles = new HashSet <> ();
 
     public Usuario() {
@@ -85,14 +85,6 @@ public class Usuario {
         this.password = password;
     }
 
-    public <any> getInverseJoinColumns() {
-        return inverseJoinColumns;
-    }
-
-    public void setInverseJoinColumns(<any> inverseJoinColumns) {
-        this.inverseJoinColumns = inverseJoinColumns;
-    }
-
     public Set<Rol> getRoles() {
         return roles;
     }
@@ -100,7 +92,5 @@ public class Usuario {
     public void setRoles(Set<Rol> roles) {
         this.roles = roles;
     }
-    
-
     
 }
