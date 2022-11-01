@@ -4,11 +4,14 @@
  */
 package com.melinatheill.mgb.repository;
 
-import com.melinatheill.mgb.Entity.Persona;
+import com.melinatheill.mgb.Entity.Experiencia;
+import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+
 @Repository
-public interface IPersonaRepository extends JpaRepository<Persona,Long> {
-    
+public interface RExperiencia extends JpaRepository <Experiencia,Integer>{
+   public Optional <Experiencia> findByNombreE(String nombreE);
+   public boolean existsByNombreE (String nombreE);
 }

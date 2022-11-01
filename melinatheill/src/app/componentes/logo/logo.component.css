@@ -1,9 +1,10 @@
 
 #logo{
-    width: 150px;
-    background-color: #3576E1;
+    width: 120px;
+    background-color: #000706;
     border-radius: 10px;
     display: flex;
+    margin-left: 1%;
    
 }
 
